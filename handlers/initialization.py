@@ -62,6 +62,14 @@ def draw_canvas(canvas):
 
 
 def draw(canvas, ball, paddle1, paddle2):
+    """
+    Render new game snapshot
+    :param canvas: our screen
+    :param ball: ball game object
+    :param paddle1: player 1 object
+    :param paddle2: player 2 object
+    :return: None
+    """
     # make background
     draw_canvas(canvas)
 
@@ -91,6 +99,13 @@ def draw(canvas, ball, paddle1, paddle2):
 
 
 def update(ball, paddle1, paddle2):
+    """
+    Persist changes onto game state
+    :param ball: ball game object
+    :param paddle1: player 1 object
+    :param paddle2: player 2 object
+    :return:
+    """
     for event in pygame.event.get():
         if event.type == KEYDOWN:
             keydown(event, paddle2, paddle1)

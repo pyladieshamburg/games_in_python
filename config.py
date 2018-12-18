@@ -6,6 +6,7 @@ config = {
         "BLACK": (0, 0, 0)
     },
     "globals": {
+        "FPS": 60,
         "WIDTH": 600,
         "HEIGHT":  400,
         "BALL_RADIUS": 20,
