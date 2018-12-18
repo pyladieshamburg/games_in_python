@@ -64,6 +64,7 @@ def draw_canvas(canvas):
 def draw(canvas, ball, paddle1, paddle2):
     # make background
     draw_canvas(canvas)
+
     # draw paddles and ball
     ball.draw(config['colors']['RED'])
     pad_h_w = int(config['globals']['PAD_WIDTH'] / 2)
