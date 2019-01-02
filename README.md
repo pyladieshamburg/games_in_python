@@ -17,6 +17,7 @@ Run locally:
 3. Swarm itelligence (intro): https://gamedevelopment.tutsplus.com/tutorials/3-simple-rules-of-flocking-behaviors-alignment-cohesion-and-separation--gamedev-3444
 4. Reinforcement learning where to start: https://gym.openai.com/
 5. Dota 2 AI bots: https://openai.com/five/
+6. Further resources: http://alumni.media.mit.edu/~jorkin/aibooks.html
 
 ##### Competitions
 1. Global: https://globalgamejam.org/
